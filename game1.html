@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap"
+    />
+    <title>CAR X HIGHWAY</title>
+    <link rel="stylesheet" href="homePage.css"/>
+  </head>
+
+  <body>
+    <div class="container">
+
+      <h1 class="game_title">CAR X HIGHWAY</h1>
+        <div class="my_buttons">
+          <button
+            class="score_btn"
+            id="score_btn"
+            onclick="location.href = 'scores.html'"
+          >
+            Score Records
+          </button>
+          <!-- <button
+            class="start_btn"
+            id="start_btn"
+            onclick="location.href = 'game.html'"
+          > -->
+      <button
+      class="login_btn"
+      id="login_btn"
+      onclick="location.href = 'login.html'"
+    >
+      Login
+    </button>
+    
+
+      <!-- <div class="child">
+        <h1 class="game_title">CAR X HIGHWAY</h1>
+        <div class="my_buttons">
+          <button
+            class="start_btn"
+            id="start_btn"
+            onclick="location.href = 'game.html'"
+          >
+            Play Now
+          </button>
+          <button
+            class="score_btn"
+            id="score_btn"
+            onclick="location.href = 'scores.html'"
+          >
+            Score Records
+          </button>-->
+          <button class="guide_btn" id="guide_btn">
+            How to Play?
+          </button>
+        </div>
+        <div class="guide" id="guide">
+          <p>Use The Arrow Keys or WASD Keys For Navigation.</p>
+          <pre>&uarr; | W : Move Forward</pre>
+          <pre>&darr; | S : Move Backward</pre>
+          <pre>&larr; | A : Move Left</pre>
+          <pre>&rarr; | D : Move Right</pre>
+          <br />
+          <p>Also, You Can Navigate Through Your Touchpad.</p>
+          <button
+            class="guide_back_btn"
+            id="guide_back_btn"
+          >
+            Exit
+          </button>
+        </div>
+      </div>
+    </div>
+    <script src="homePage.js"></script>
+  </body>
+</html>
